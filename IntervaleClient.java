@@ -16,7 +16,7 @@ public class IntervaleClient {
                             String leftString = leftAndRight[0];
                             String rightString = leftAndRight[1];
                             leftString = leftString.substring(1, leftString.length());
-                            rightString = rightString.substring(0, rightString.length()-1);
+                            rightString = rightString.substring(0, rightString.length() - 1);
                             Double leftDouble = Double.parseDouble(leftString);
                             Double rightDouble = Double.parseDouble(rightString);
                             Intervale intervale = new Intervale(leftDouble, rightDouble);
